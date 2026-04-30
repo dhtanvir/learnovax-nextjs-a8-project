@@ -5,23 +5,29 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 
 const CoursesCard = ({ course }) => {
-   const {  title, instructor, rating, image, category } = course;
+  const { title, instructor, rating, image, category } = course;
 
   return (
     <div>
       <Card className="border rounded-xl p-3 hover:shadow-xl transition">
         {/* Image */}
-        <div className="relative w-full aspect-square">
+        <div className="relative w-full aspect-4/3 rounded-xl overflow-hidden">
           <Image
             src={image}
             alt={title}
             fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="object-cover rounded-xl"
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover group-hover:scale-110 transition-transform duration-500 rounded-xl"
           />
 
+          <div className="absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent z-0" />
+
           {/* Category */}
-          <Chip size="sm" className="absolute right-2 top-2">
+          <Chip
+            size="sm"
+            variant="flat"
+            className="absolute right-3 top-3 z-10 bg-purple-600/90 text-white font-medium capitalize"
+          >
             {category}
           </Chip>
         </div>
@@ -39,11 +45,10 @@ const CoursesCard = ({ course }) => {
         </div>
 
         {/* Button */}
-       
-          <Button variant="outline" className="w-full mt-3">
-            View Details
-          </Button>
-      
+
+        <Button variant="outline" className="w-full mt-3">
+          View Details
+        </Button>
       </Card>
     </div>
   );
