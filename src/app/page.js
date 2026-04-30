@@ -1,4 +1,6 @@
 import Banner from "@/components/homePage/Banner";
+import TopCoursesPage from "@/components/homePage/TopCourses";
+
 
 
 export default function Home() {
@@ -7,6 +9,8 @@ export default function Home() {
      justify-center bg-zinc-50 font-sans dark:bg-black">
        
         <Banner/>
+        <TopCoursesPage/>
+     
     </div>
   );
 }
