@@ -3,7 +3,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/logo.png";
-import NavLink from "./NavLink";
+import NavLink from "./Navlink";
+
 
 
 
@@ -11,7 +12,8 @@ import NavLink from "./NavLink";
 const Navbar = () => {
   return (
     <nav className="bg-gray-200 px-5">
-      <div className=" container mx-auto flex flex-wrap items-center  md:justify-between  justify-center gap-4">
+      <div className=" container mx-auto flex flex-wrap items-center
+        md:justify-between  justify-center gap-4">
         <div>
           <Link href={"/"}>
             <Image src={logo} alt="Logo" width={160} height={50} />
@@ -20,13 +22,13 @@ const Navbar = () => {
         {/* Left side */}
         <ul className="flex gap-6 text-gray-700 font-medium ">
           <li>
-            <NavLink href="/">Home</NavLink>
+            <NavLink href={'/'}>Home</NavLink>
           </li>
           <li>
-            <NavLink href="/courses">Courses</NavLink>
+            <NavLink href={'/courses'}>Courses</NavLink>
           </li>
           <li>
-            <NavLink href="/profile">My Profile</NavLink>
+            <NavLink href={'/profile'}>My Profile</NavLink>
           </li>
         </ul>
 
@@ -40,7 +42,7 @@ const Navbar = () => {
           {/* Login Button */}
 
           <Link
-            href="/login"
+            href={"/login"}
             className="bg-gray-800 text-white px-5 py-1.5 rounded 
             hover:bg-gray-900 cursor-pointer"
           >
