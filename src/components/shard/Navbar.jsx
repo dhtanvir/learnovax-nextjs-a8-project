@@ -1,8 +1,12 @@
 import React from "react";
-import NavLink from "./NavLink";
+
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/logo.png";
+import NavLink from "./NavLink";
+
+
+
 
 const Navbar = () => {
   return (
