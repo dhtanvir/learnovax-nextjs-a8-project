@@ -38,11 +38,11 @@ const CoursesCard = ({ course }) => {
         </div>
 
         {/* Button */}
-        <Link href={'/courses'}>
+       
           <Button variant="outline" className="w-full mt-3">
             View Details
           </Button>
-        </Link>
+      
       </Card>
     </div>
   );
