@@ -4,9 +4,10 @@ import bannerImage from "@/assets/banner-image.jpg";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto py-10">
-      <div className="grid grid-cols-1  md:grid-cols-2 items-center justify-center gap-5 ">
-        <div className="space-y-4">
+    <div className="container mx-auto py-5 px-8">
+      <div className="grid grid-cols-1  md:grid-cols-2 items-center justify-center gap-2 md:gap-5 ">
+        {/* Banner content */}
+        <div className=" md:space-y-4 space-y-3">
           <div
             className="inline-flex items-center gap-2
            bg-green-500/10 border border-green-400/30
@@ -37,6 +38,7 @@ const Banner = () => {
             </Button>
           </div>
         </div>
+        {/* Banner Image */}
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative">
             <Image

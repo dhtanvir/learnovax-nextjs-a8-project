@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch including HTML, CSS, JavaScript, and backend technologies.",
+    "image": "https://i.ibb.co.com/zV3KG6TN/Complete-Web-Development.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "React.js Mastery",
+    "instructor": "Sarah Ahmed",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master React.js with hooks, context API, and build real-world projects.",
+    "image": "https://i.ibb.co.com/LdLDpQk2/React-js-mastery.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "Node.js & Express API Development",
+    "instructor": "Michael Lee",
+    "duration": "18 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Build scalable REST APIs using Node.js, Express, and MongoDB.",
+    "image": "https://i.ibb.co.com/kgTMFJM6/Node-js-API-Development.webp",
+    "category": "Development"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Emily Carter",
+    "duration": "12 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn design principles, wireframing, and prototyping using modern tools.",
+    "image": "https://i.ibb.co.com/2YLHXTdq/ui-ux-background.avif",
+    "category": "Design"
+  },
+  {
+    "id": 5,
+    "title": "Graphic Design with Photoshop",
+    "instructor": "David Wilson",
+    "duration": "14 hours",
+    "rating": 4.4,
+    "level": "Beginner",
+    "description": "Create stunning graphics, banners, and social media posts using Photoshop.",
+    "image": "https://i.ibb.co.com/67zsRmm0/Graphic-Design-with-Photoshop.png",
+    "category": "Design"
+  },
+  {
+    "id": 6,
+    "title": "Digital Marketing A-Z",
+    "instructor": "Nusrat Jahan",
+    "duration": "10 hours",
+    "rating": 4.3,
+    "level": "Beginner",
+    "description": "Learn SEO, Facebook Ads, Google Ads, and complete digital marketing strategies.",
+    "image": "https://i.ibb.co.com/p6ZSH432/Digital-Marketing.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 7,
+    "title": "Advanced SEO Strategies",
+    "instructor": "Rakib Hasan",
+    "duration": "9 hours",
+    "rating": 4.6,
+    "level": "Advanced",
+    "description": "Deep dive into technical SEO, keyword research, and ranking strategies.",
+    "image": "https://i.ibb.co.com/kV8Fs4pm/Advanced-SEO.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 8,
+    "title": "Data Analysis with Python",
+    "instructor": "Ayesha Rahman",
+    "duration": "22 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Analyze data, create visualizations, and build models using Python libraries.",
+    "image": "https://i.ibb.co.com/tTHCrZjS/DA-with-python.webp",
+    "category": "Data Science"
+  }
+]
