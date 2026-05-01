@@ -5,7 +5,7 @@ const TopCoursesPage = async () => {
     "https://learnovax-nextjs-a8-project-hpy4.vercel.app/data.json",
   );
   const allCourses = await res.json();
-  console.log(allCourses, "courses data");
+//   console.log(allCourses, "courses data");
 
   const topCourses = [...allCourses]
     .sort((a, b) => b.rating - a.rating)

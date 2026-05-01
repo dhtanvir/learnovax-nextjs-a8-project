@@ -15,9 +15,9 @@ const Navbar = () => {
       <div className=" container mx-auto flex flex-wrap items-center
         md:justify-between  justify-center gap-4">
         <div>
-          <Link href={"/"}>
+          
             <Image src={logo} alt="Logo" width={160} height={50} />
-          </Link>
+        
         </div>
         {/* Left side */}
         <ul className="flex gap-6 text-gray-700 font-medium ">
