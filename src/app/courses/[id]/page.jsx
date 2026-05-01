@@ -3,7 +3,7 @@ import Image from "next/image";
 import { BiDownload } from "react-icons/bi";
 import { FaHeart } from "react-icons/fa";
 
-const coursesDetailsPage = async ({ params }) => {
+const CoursesDetailsPage = async ({ params }) => {
   const { id } = await params;
 
   console.log(id, "id params");
@@ -84,4 +84,4 @@ const coursesDetailsPage = async ({ params }) => {
   );
 };
 
-export default coursesDetailsPage;
+export default CoursesDetailsPage;
