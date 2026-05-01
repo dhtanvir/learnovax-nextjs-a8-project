@@ -15,8 +15,7 @@ const CoursesDetailsPage = async ({ params }) => {
 
   const allCourses = courseDetails.find((c) => c.id == id);
 
-  console.log(allCourses , " all courses details");
-  
+  console.log(allCourses, " all courses details");
 
   return (
     <div className="container mx-auto py-10">
@@ -41,8 +40,10 @@ const CoursesDetailsPage = async ({ params }) => {
               <h1 className="text-3xl font-bold">{allCourses.title}</h1>
 
               {/* Category */}
-              <span className="inline-block mt-2 bg-gray-200 
-              text-sm px-3 py-1 rounded-full">
+              <span
+                className="inline-block mt-2 bg-gray-200 
+              text-sm px-3 py-1 rounded-full"
+              >
                 {allCourses.category}
               </span>
 
@@ -58,7 +59,6 @@ const CoursesDetailsPage = async ({ params }) => {
                 <Separator orientation="vertical" />
 
                 <div className="flex items-center gap-2">
-                  
                   <p>{allCourses.level}</p>
                   <p>{allCourses.duration}</p>
                 </div>
@@ -69,12 +69,14 @@ const CoursesDetailsPage = async ({ params }) => {
                 <p>
                   <strong>Description:</strong> {allCourses.description}
                 </p>
-              
               </div>
 
               {/* Button */}
-              <button className="mt-8 w-full bg-black text-white py-3 rounded-lg hover:opacity-90 transition">
-                Download  Courses
+              <button
+                className="mt-8 w-full bg-black text-white py-3
+               rounded-lg hover:opacity-90 transition"
+              >
+                Download Courses
               </button>
             </div>
           </div>

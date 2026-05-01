@@ -1,5 +1,7 @@
 import Banner from "@/components/homePage/Banner";
+import LearningTipsSection from "@/components/homePage/LearningTipsSection";
 import TopCoursesPage from "@/components/homePage/TopCourses";
+import TopInstructorsSection from "@/components/homePage/TopInstructorsSection";
 
 
 
@@ -10,6 +12,8 @@ export default function Home() {
        
         <Banner/>
         <TopCoursesPage/>
+        <LearningTipsSection/>
+        <TopInstructorsSection/>
      
     </div>
   );
