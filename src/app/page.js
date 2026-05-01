@@ -2,6 +2,7 @@ import Banner from "@/components/homePage/Banner";
 import LearningTipsSection from "@/components/homePage/LearningTipsSection";
 import TopCoursesPage from "@/components/homePage/TopCourses";
 import TopInstructorsSection from "@/components/homePage/TopInstructorsSection";
+import TrendingCoursesSlider from "@/components/homePage/TrendingCoursesSlider";
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
         <TopCoursesPage/>
         <LearningTipsSection/>
         <TopInstructorsSection/>
+        <TrendingCoursesSlider />
      
     </div>
   );
