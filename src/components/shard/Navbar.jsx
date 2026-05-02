@@ -11,18 +11,16 @@ const Navbar = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
 
-  console.log(user);
+  // console.log(user);
 
   return (
-    <nav className="bg-blue-100 px-5 shadow-lg ">
-      <div
-        className="container mx-auto flex flex-wrap items-center
-        md:justify-between justify-center gap-4">
+    <nav className="bg-blue-100 px-5 shadow-lg">
+      <div className="container mx-auto flex flex-wrap items-center md:justify-between justify-center gap-4">
         <div>
           <Image src={logo} alt="Logo" width={160} height={50} />
         </div>
         {/* Left side */}
-        <ul className="flex gap-6 text-gray-700 font-medium ">
+        <ul className="flex gap-6 text-gray-700 font-medium">
           <li>
             <NavLink href={"/"}>Home</NavLink>
           </li>
@@ -42,14 +40,14 @@ const Navbar = () => {
             <ul className="flex items-center gap-4 text-sm">
               <li>
                 <Link href={"/signup"}>
-                  <button className="btn  bg-gray-400 text-white px-5 py-2 rounded-lg font-bold cursor-pointer">
+                  <button className="btn bg-gray-400 text-white px-5 py-2 rounded-lg font-bold cursor-pointer">
                     SignUp
                   </button>
                 </Link>
               </li>
               <li>
                 <Link href={"/signin"}>
-                  <button className="btn  bg-gray-400 text-white px-5 py-2 rounded-lg font-bold cursor-pointer">
+                  <button className="btn bg-gray-400 text-white px-5 py-2 rounded-lg font-bold cursor-pointer">
                     SignIn
                   </button>
                 </Link>

@@ -97,8 +97,7 @@ const courses = [
 
 const CourseCard = ({ course }) => {
   return (
-    <div className="bg-white dark:bg-gray-900 rounded-2xl 
-    shadow-md hover:shadow-xl transition duration-300 overflow-hidden border border-gray-100 dark:border-gray-800">
+    <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden border border-gray-100 dark:border-gray-800">
       <div className="relative h-44 w-full">
         <Image
           src={course.image}
