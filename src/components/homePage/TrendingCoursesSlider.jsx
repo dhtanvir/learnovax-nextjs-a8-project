@@ -73,6 +73,26 @@ const courses = [
     price: 59,
     image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
   },
+  {
+    id: 7,
+    title: "Mastering React & Next.js",
+    instructor: "David Kim",
+    rating: 4.9,
+    students: 18500,
+    duration: "22h",
+    price: 49,
+    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+  },
+  {
+    id: 8,
+    title: "UI/UX Design with Figma",
+    instructor: "Sarah Johnson",
+    rating: 4.8,
+    students: 14200,
+    duration: "16h",
+    price: 39,
+    image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e",
+  },
 ];
 
 const CourseCard = ({ course }) => {
@@ -142,6 +162,7 @@ const TrendingCoursesSlider = () => {
         slidesPerView={3}
         centeredSlides={true}
         spaceBetween={30}
+        loop={true}
         autoplay={{
           delay: 3500,
           disableOnInteraction: false,

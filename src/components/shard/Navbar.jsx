@@ -11,7 +11,7 @@ import NavLink from "./NavLink";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-200 px-5">
+    <nav className="bg-blue-100  px-5 shadow-lg ">
       <div className=" container mx-auto flex flex-wrap items-center
         md:justify-between  justify-center gap-4">
         <div>

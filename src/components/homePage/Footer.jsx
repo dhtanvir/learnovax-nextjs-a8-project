@@ -14,7 +14,9 @@ const Footer = () => {
     py-10 border-t border-white/5 overflow-hidden"
     >
       {/* Background Decorative Element */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-linear-to-r from-transparent via-purple-500/50 to-transparent" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 
+      w-full h-px bg-linear-to-r from-transparent
+       via-purple-500/50 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
