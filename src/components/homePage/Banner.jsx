@@ -15,7 +15,7 @@ const Banner = () => {
           >
             ✨ Frontier AI Models
           </div>
-          <h2 className="text-6xl font-extrabold leading-tight text-gray-800">
+          <h2 className="text-2xl md:text-6xl font-extrabold leading-tight text-gray-800">
             Generate Your Skills <br />
             <span
               className="bg-linear-to-r from-purple-400
@@ -26,7 +26,7 @@ const Banner = () => {
             🚀
           </h2>
           <p>Instantly Create Personalized Courses, Quizzes, and Lessons. </p>
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-blue-500 text-white hover:bg-blue-600">
               Generate First Course
             </Button>
@@ -46,8 +46,8 @@ const Banner = () => {
               alt="Banner Image"
               width={500}
               height={300}
-              className="relative h-130
-               w-auto object-cover drop-shadow-2xl 
+              className="relative h-130 object-contain
+               w-auto  lg:object-cover drop-shadow-2xl 
                 animate-pulse rounded-2xl "
             />
           </div>
