@@ -131,7 +131,7 @@ export default function SignUpPage() {
             variant="outline"
             className="w-full"
           >
-            <GrGoogle /> Sign in with Google
+            <GrGoogle/> Sign in with Google
           </Button>
         </div>
       </Card>

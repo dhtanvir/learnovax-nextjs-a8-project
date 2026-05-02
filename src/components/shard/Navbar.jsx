@@ -14,11 +14,10 @@ const Navbar = () => {
   console.log(user);
 
   return (
-    <nav className="bg-blue-100   px-5 shadow-lg ">
+    <nav className="bg-blue-100 px-5 shadow-lg ">
       <div
-        className=" container mx-auto flex flex-wrap items-center
-        md:justify-between  justify-center gap-4"
-      >
+        className="container mx-auto flex flex-wrap items-center
+        md:justify-between justify-center gap-4">
         <div>
           <Image src={logo} alt="Logo" width={160} height={50} />
         </div>
