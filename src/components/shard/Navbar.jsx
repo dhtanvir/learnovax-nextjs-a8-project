@@ -2,10 +2,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/logo.png";
-import NavLink from "./NavLink";
 import { Avatar, Button } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
 import { toast } from "react-toastify";
+import NavLink from "./NavLink";
 
 const Navbar = () => {
   const userData = authClient.useSession();
