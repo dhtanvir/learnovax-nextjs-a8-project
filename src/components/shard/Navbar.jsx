@@ -7,6 +7,7 @@ import { authClient } from "@/lib/auth-client";
 import { toast } from "react-toastify";
 import NavLink from "./NavLink";
 
+
 const Navbar = () => {
   const userData = authClient.useSession();
   const user = userData.data?.user;
