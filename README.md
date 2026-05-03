@@ -1,36 +1,173 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 Learnovax – Online Learning Platform
 
-## Getting Started
+## 🚀 Live Site
 
-First, run the development server:
+👉 https://learnovax-nextjs-a8-project-hpy4.vercel.app
+
+## 📂 GitHub Repository
+
+👉 https://github.com/dhtanvir/learnovax-nextjs-a8-project *(update with your repo link)*
+
+---
+
+## 📌 Project Overview
+
+**Learnovax** is a modern and responsive online learning platform where users can explore skill-based courses, view detailed lessons, and manage their learning journey.
+
+This project is built using **Next.js App Router** with a focus on clean UI design, authentication, protected routes, and a smooth user experience.
+
+---
+
+## ✨ Features
+
+### 🔐 Authentication
+
+* Email & Password Login
+* User Registration
+* Google Social Login
+* Protected Course Details Page
+* Redirect after successful login
+
+---
+
+### 🏠 Home Page
+
+* 🎥 Hero Section (Banner / Slider)
+* 🔥 Popular Courses (Top Rated)
+* 📈 Trending Courses (Extra Section)
+* 📚 Learning Tips Section
+* 🏆 Top Instructors Section
+
+---
+
+### 📚 Courses
+
+* All Courses Page
+* Dynamic Course Cards
+* 🔍 Search by course title
+* 📄 Course Details Page (Protected Route)
+
+---
+
+### 👤 My Profile
+
+* View logged-in user information
+* Update Name & Profile Image
+* Secure update system using BetterAuth
+
+---
+
+### 🎨 UI & UX
+
+* Fully Responsive (Mobile, Tablet, Desktop)
+* Clean and modern design
+* Toast notifications for user feedback
+* Loading spinner during data fetching
+* Custom 404 Not Found Page
+
+---
+
+### 🔄 Routing & Layout
+
+* Next.js App Router structure
+* Persistent Navbar & Footer
+* No crash on reload (SPA routing handled)
+
+---
+
+## 🧰 Tech Stack
+
+* **Framework:** Next.js (App Router)
+* **Styling:** Tailwind CSS + DaisyUI / HeroUI
+* **Authentication:** BetterAuth
+* **UI Enhancements:** Swiper JS
+* **Notifications:** React Hot Toast
+
+---
+
+## 📦 NPM Packages
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+next
+react
+tailwindcss
+daisyui
+@heroui/react
+better-auth
+swiper
+react-hot-toast
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔑 Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📊 Sample Course Data
 
-## Learn More
+```json
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.postimg.cc/example-course1.png",
+    "category": "Development"
+  }
+]
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧪 Challenge Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔍 Search Functionality
 
-## Deploy on Vercel
+* Real-time search by course title
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 👤 Profile System
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Show logged-in user data
+* Update name and profile image
+
+### ✏️ Update Feature
+
+* Separate update route
+* Integrated BetterAuth update API
+
+---
+
+## 📱 Responsiveness
+
+* ✅ Mobile Friendly
+* ✅ Tablet Optimized
+* ✅ Desktop Ready
+
+---
+
+## 🚀 Deployment
+
+* Hosted on **Vercel**
+* Smooth SPA routing without reload errors
+
+---
+
+## 📌 Future Improvements
+
+* Course enrollment system
+* Video lesson integration
+* Payment gateway (Stripe)
+* Instructor dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Md Tanvirul Islam**
+Frontend Developer
+
+
+
