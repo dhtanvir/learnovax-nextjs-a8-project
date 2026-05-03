@@ -5,7 +5,8 @@ import logo from "@/assets/logo.png";
 import { Avatar, Button } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
 import { toast } from "react-toastify";
-import NavLink from "./NavLink";
+import NavLink from "./Navlink";
+
 
 
 const Navbar = () => {
